@@ -1,0 +1,18 @@
+export default interface HelpArticle {
+	bodyV2?: any,
+	externalArticlePostDate?: string,
+	externalArticleUpdateDate?: string,
+	landingPageUrl?: string,
+	nudgeEnabled?: boolean,
+	primaryConversationContact?: any,
+	promoted?: boolean,
+	shortDescriptionV2?: any,
+	slug?: string,
+	voteCount?: number,
+	voteSum?: number,
+	name: string,
+	c_activeOnSearch?: boolean,
+	keywords?: string[],
+	id: string,
+	timezone?: any,
+}
